@@ -8,14 +8,14 @@ body {
     justify-content: space-between;
 }
 .header{
-    border: 1px solid red;
+    background: rgb(42, 160, 87);
+   
 }
 .main{
-    border: 1px solid red;
+    background: rgba(61, 50, 78, 0.192);
+    
 }
-.footer{
-    border: 1px solid red;
-}
+
 .container{
     max-width: 1440px;
     margin:0 auto;
@@ -33,12 +33,12 @@ html {
   }
   .nav-link {
     text-decoration: none;
-  color: #829985;
+  color: white;
   transition: color 1.5s;
   padding:0 30px;
   }
   .nav-link:hover {
-    color: #e60707;
+    color: #c7ca0c;
   }
   .section-item a {
     color: #829985;
@@ -68,9 +68,22 @@ flex-wrap: wrap;
     color: #4d2323;
   }
   .section-title {
-    font-size: 20px;
+    font-size:30;
+    color:black;
+    font-style:normal;
     font-weight: 400;
     text-transform: full-width;
-    letter-spacing: 5px;
-    color: #829985;
+    font-family: normal,sans-serif;
+    
   }
+  .card {
+width: 80px;
+height: 60px;
+  }
+  .footer {
+    background: rgb(42, 160, 87);
+    color: black;
+    padding:0px;
+  }
+  
+  
